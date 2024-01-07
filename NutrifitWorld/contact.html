@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>NutrifitWorld</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header class="nav">
+            <a href="home.html"><img src="images/logo.png" height="80px" width="180px" id="logo"></a>
+        
+            <nav class="navbar">
+                <a href="home.html">HOME</a>
+                <a href="aboutme.html">ABOUT</a>
+                <a class="active" href="contact.html">CONTACT</a>
+                <a href="successstories.html">SUCCESS STORIES</a>
+            </nav>
+        </header>
+        
+        <div id="contact">
+            <h2>Get the answers to your Weight loss/blood sugar Struggles & get the road map to your health in this Free 30 min Lifestyle consultation call.</h2>
+            <h2 style="font-size: 20px; padding-top: 30px;">We will:</h2>
+                <li>Assess your current lifestyle and how it impacts your short & long term health.</li>
+                <li>Understand your current nutrition & lifestyle habits.</li>
+                <li>Set goals with a simple process so you know exactly what it will take to achieve your goals.</li>
+        </div>
+
+        <div>
+            <form id="contact-form" onsubmit="contactform()">
+                <h2 style="margin-right: 210px;">CONTACT ME</h2>
+                <input type="email" id="email" placeholder="Email" required><br>
+                <input type="text" id="name" placeholder="Name" required><br>
+                <input type="tel" id="phone" placeholder="Phone Number (123-444-555)" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br><br>
+                <textarea id="msg" name="msg" rows="7" cols="50" placeholder="Message" required></textarea><br>
+                <button type="submit" id="sendmsg">Send Message</button>
+            </form>
+        </div> 
+
+    </body>
+    <script src="script.js"></script>
+</html>
