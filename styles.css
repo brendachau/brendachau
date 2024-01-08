@@ -27,7 +27,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 2.5% 8% 30px 8%;
+    padding: 2.5% 5% 30px 8%;
     background: none;
     position: sticky;
     top: 0;
@@ -78,10 +78,9 @@ header {
 }
 /* load in text color */
 .input {
-    background: linear-gradient(to right, #87CEEB, aliceblue);
+    background: linear-gradient(to right, #87CEEB, #a2d6f9, aliceblue);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-
 }
 .intro2 {
     display: flex;
@@ -122,7 +121,6 @@ header {
     filter: blur(0);
     opacity: 1;
 }
-
 .intro2.show-animate .fadeIn {
     transform: translateX(0);
     filter: blur(0);
@@ -142,7 +140,7 @@ header {
 #profile {
     width: 330px;
     height: 515px;
-    margin: 185px 10px 0px 250px;
+    margin: 175px 5px 0px 250px;
     float: left;
 }
 .profileInfo {
@@ -231,18 +229,18 @@ header {
 
 /* languages cards */
 .col2 {
-    margin: 160px 0px 0px 145px;
+    margin: 155px 5px 0px 140px;
     width: 200px;
     height: 260px;
     display: grid;
     grid-template-columns: 200px 200px;
     grid-row: auto auto;
     grid-column-gap: 40px;
-    grid-row-gap: 10px;
+    grid-row-gap: 10px;    
     float: left;
+    position: relative;
 }
 .card {
-    position: relative;
     display: inline-block;
     width: 200px;
     height: 260px;
@@ -293,14 +291,14 @@ header {
     background-image: url("images/htmlcss.jpeg");
 }
 .card1.caption::before {
-    content: "I'm the most fluent in this language but could definitely learn more.";
+    content: "I'm familiar with this language the most but could definitely learn more.";
 }
 /* card 2 */
 .card2 {
     background-image: url("images/js");
 }
 .card2.caption::before {
-    content: "I took a web scripting lanauge course and it's my only understanding of JS. I learned the basic methods like click, toggles, etc., but still pretty new to it.";
+    content: "I took one web scripting lanauge course and it's my only understanding of JS. I learned the basic methods like click, toggles, etc., but still pretty new to it.";
 }
 /* card 3 */
 .card3 {
@@ -325,7 +323,8 @@ header {
 #extra {
     margin-left: 16%;
     color: white;
-    margin-bottom: 10px;
+    margin-bottom: 5%;
+    margin-top: 9%;
 }
 #extracurricular {
     margin-top: 10%;
@@ -342,7 +341,7 @@ i {
     margin-right: 13%;
 }
 #education h1{
-    padding-top: 60px;
+    padding-top: 65px;
     color: #4B9CD3;
     border-top: 2px dashed black;
 }
@@ -367,11 +366,6 @@ li {
 }
 
 
-
-
-.wave {
-    display: none;
-}
 
 
 /* project */
@@ -425,7 +419,7 @@ button {
 .square3 {
     width: 620px;
     height: 310px;
-    background-color: #B0B5ED;
+    background-color: #9ec2f0;
     margin-top: 40px;
     float: right;
     margin-left: 100px;
@@ -434,7 +428,7 @@ button {
 }
 .square3 h1 {
     color: black;
-    text-shadow: 3px 2px #A99ABD;
+    text-shadow: 2px 2px #6f809a;
     padding-top: 30px;
     text-align: center;
     font-size: 28px;
@@ -455,14 +449,13 @@ button {
     margin-left: 79%;
     margin-top: 14.5%;
     border-top: 380px solid transparent;
-    border-right: 300px solid #A8D1D1;
+    border-right: 300px solid #aad1d1;
     border-bottom: 250px solid transparent;
     position: absolute;
 }
 #triangle:hover {
     opacity: 0.85;
 }
-
 
 
 /* volunteer */
@@ -476,15 +469,16 @@ button {
     padding: 10% 0;
 }
 
-.volunteer h1 {
+#volunteer h1 {
     text-align: center;
 }
-.volunteer {
+#volunteer {
     margin-top: 22%;
     background-image: url("NutrifitWorld/images/paper.jpeg");
     padding-bottom: 4%;
+    position: relative;
 }
-.volunteer h2 {
+#volunteer h2 {
     font-size: 32px;
     color: #017596;
     text-align: center;
@@ -492,10 +486,14 @@ button {
     letter-spacing: 2px;
     margin: 40px 0 10px;
 }
-.volunteer p {
+#volunteer p {
     font-size: 16px;
     text-align: justify;
     line-height: 30px;    
     padding: 3% 10% 0% 10%;
 }
 
+/* wave */
+.wave {
+    display: none;
+}
