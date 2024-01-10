@@ -443,7 +443,7 @@ button {
 .square3 i, .square3 a {
     color: snow;
 }
-#triangle {
+.triangle {
     width: 0;
     top: 0;
     margin-left: 79%;
@@ -453,7 +453,7 @@ button {
     border-bottom: 250px solid transparent;
     position: absolute;
 }
-#triangle:hover {
+.triangle:hover {
     opacity: 0.85;
 }
 
@@ -496,4 +496,15 @@ button {
 /* wave */
 .wave {
     display: none;
+}
+
+/* reveal */
+.reveal {
+    opacity: 0;
+    transition: all 2s ease;
+    transform: translateX(100%);
+}
+.reveal.active {
+    opacity: 1;
+    transform: translateX(0);
 }
