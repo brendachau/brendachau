@@ -78,8 +78,28 @@ function redirect2() {
   ;window.location.href = "https://www.nutrifitworld.com";
 }
 
-
-
+//square button 
 $(".square3").click(function() {
   document.getElementsById(".dropdownSquare").style.display = "block";
 })
+
+// reveal on scroll 
+window.addEventListener('scroll', reveal);
+
+function reveal() {
+  var reveals = document.querySelectorAll('.reveal');
+
+  for(var i = 0; i < reveals.length; i++) {
+
+    var windowheight = window.innerHeight;
+    var revealTop = reveals[i].getBoundingClientRect().top;
+    var revealPoint = 150;
+
+    if(revealTop < windowheight - revealPoint) {
+      reveals[i].classList.add('active');
+    }
+    else {
+      reveals[i].classList.remove('active');
+    }
+  }
+}
