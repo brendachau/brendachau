@@ -189,8 +189,9 @@ details {
 	margin-top: 10%;
 	float: left;
 	text-align: left;
-	background-color: rgba(0,0,0,0.2);
-	color: whitesmoke;
+	background-color: whitesmoke;
+	color: black;
+	opacity: 75;
 	padding: 3%;
 }
 
