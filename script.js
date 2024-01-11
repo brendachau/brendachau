@@ -103,3 +103,6 @@ function reveal() {
     }
   }
 }
+
+
+window.alert("Please view this page in desktop full screen. -Brenda");
