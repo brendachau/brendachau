@@ -298,21 +298,21 @@ header {
     background-image: url("images/js");
 }
 .card2.caption::before {
-    content: "I took one web scripting lanauge course and it's my only understanding of JS. I learned the basic methods like click, toggles, etc., but still pretty new to it.";
+    content: "I took one web scripting lanauge course and it's my only understanding of JS. I learned the basic methods like click, toggles, etc., but still pretty new to it. I'm currently using CodeAcademy to learn JSX and more about React/JavaScript";
 }
 /* card 3 */
 .card3 {
     background-image: url("images/python.png");
 }
 .card3.caption::before {
-    content: "I took a Python course during my freshman year of college. I don't remember much but I learned it through Netlabs which consisted of path tracing using blocks. ";
+    content: "I took a Python course during my freshman year of college. I don't remember much but I learned it using Netlabs which consists of path tracing/blocks.";
 }
 /* card 4 */
 .card4 {
     background-image: url("images/php3.png");
 }
 .card4.caption::before {
-    content: "My knowledge about this is slim but I'm hoping to learn more about it!";
+    content: "My knowledge about this is slim but I'm hoping to learn more about it! I used PHP mostly for mySQL.";
 }
 
 
