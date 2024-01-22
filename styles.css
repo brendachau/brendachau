@@ -454,8 +454,8 @@ button {
     position: absolute;
 }
 .triangle:hover {
-    opacity: 0.85!important;
-    transition: 0.3s;
+    opacity: 0.8!important;
+    transition: 0.3s ease-in-out;
 }
 
 
