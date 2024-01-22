@@ -391,8 +391,8 @@ button {
     cursor: pointer;
 }
 .square:hover {
-    transform: translateY(-10%);
-    transition: all 0.8s ease-in-out;
+    transform: translateY(-10%)!important;
+    transition: all 0.6s ease-in-out;
 }
 /* nutrifit */
 .square2 {
@@ -454,7 +454,8 @@ button {
     position: absolute;
 }
 .triangle:hover {
-    opacity: 0.85;
+    opacity: 0.85!important;
+    transition: 0.3s;
 }
 
 
