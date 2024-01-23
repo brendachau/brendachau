@@ -291,28 +291,28 @@ header {
     background-image: url("images/htmlcss.jpeg");
 }
 .card1.caption::before {
-    content: "I'm familiar with this language the most but could definitely learn more.";
+    content: "I'm familiar with HTML and CSS. I know the basics and can perform most tasks";
 }
 /* card 2 */
 .card2 {
     background-image: url("images/js");
 }
 .card2.caption::before {
-    content: "I took one web scripting lanauge course and it's my only understanding of JS. I learned the basic methods like click, toggles, etc., but still pretty new to it. I'm currently using CodeAcademy to learn JSX and more about React/JavaScript";
+    content: "My only understanding of JS was learned through my web scripting course. I learned the basics like click, toggles, etc., but still pretty new to it. I'm currently using CodeAcademy to learn JSX and more about React/JavaScript.";
 }
 /* card 3 */
 .card3 {
     background-image: url("images/python.png");
 }
 .card3.caption::before {
-    content: "I took a Python course during my freshman year of college. I don't remember much but I learned it using Netlabs which consists of path tracing/blocks.";
+    content: "I took a Python course during my freshman year of college. I was taught using Netlabs which consisted of labs using path tracing/blocks.";
 }
 /* card 4 */
 .card4 {
     background-image: url("images/php3.png");
 }
 .card4.caption::before {
-    content: "My knowledge about this is slim but I'm hoping to learn more about it! I used PHP mostly for mySQL.";
+    content: "My knowledge about this is slim but I'm hoping to learn more about it! I used PHP to input databases into mySQL.";
 }
 
 
@@ -392,7 +392,7 @@ button {
 }
 .square:hover {
     transform: translateY(-10%)!important;
-    transition: all 0.6s ease-in-out;
+    transition: all 0.8s ease-in-out;
 }
 /* nutrifit */
 .square2 {
@@ -411,7 +411,7 @@ button {
 .square2:hover {
     rotate: 360deg;
     scale: 1.2;
-    transition: all 0.8s ease-in-out;
+    transition: all 0.6s ease-in-out;
     box-shadow: 6px 8px #A99ABD;
 }
 
