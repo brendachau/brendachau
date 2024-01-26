@@ -1,16 +1,16 @@
 html {
     font-family: "Montserrat", sans-serif;
     background: snow;
-    overflow-x: hidden;
     background-color: #1f242d;
 }
 html, body {
     width: 100%;
+    height: 100%;
     margin: 0px;
     padding: 0px;
-    height: 100%;
     overflow-x: hidden;
 }
+
 
 /* pop up alert */
 .popup {
@@ -107,19 +107,18 @@ header {
 
 /* section animate */
 .intro2 h1 {
-    font-size: 70px;
+    font-size: 68px;
     color: white;
-    
 }
 .intro2 p {
-    font-size: 27px;
+    font-size: 26px;
     color: #f0f0f0;
     font-weight: 600;
     margin-bottom: 100px;
 }
 /* load in text color */
 .input {
-    background: linear-gradient(to right, #87CEEB, #a2d6f9, aliceblue);
+    background: linear-gradient(to right, #b8e8f9, #a2d6f9, #94cef5 , lavender);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
@@ -176,12 +175,12 @@ header {
 /* profile card */
 .container {
     width: 100%;
-    min-height: 100vh;
+    min-height: 100%;
 }
 #profile {
     width: 330px;
     height: 515px;
-    margin: 175px 5px 0px 250px;
+    margin: 175px 5px 0px 235px;
     float: left;
 }
 .profileInfo {
@@ -332,7 +331,7 @@ header {
     background-image: url("images/htmlcss.jpeg");
 }
 .card1.caption::before {
-    content: "I'm familiar with HTML and CSS. I know the basics and can perform most tasks";
+    content: "I'm familiar most with HTML and CSS. I know the basics and can perform the majority of tasks asked.";
 }
 /* card 2 */
 .card2 {
@@ -413,8 +412,9 @@ li {
 #project {
     color: white;
     padding-bottom: 48%;
-    padding-top: 12%;
+    padding-top: 10%;
     position: relative;
+    overflow-x: visible;
 }
 button {
     border: none;
@@ -515,10 +515,11 @@ button {
     text-align: center;
 }
 #volunteer {
-    margin-top: 22%;
+    margin-top: 24%;
     background-image: url("NutrifitWorld/images/paper.jpeg");
     padding-bottom: 4%;
     position: relative;
+    
 }
 #volunteer h2 {
     font-size: 32px;
@@ -542,11 +543,13 @@ button {
 
 /* reveal */
 .reveal {
-    opacity: 0;
+    opacity: 1;
     transition: all 2s ease;
-    transform: translateX(100%);
+    transform: translateX(0%);
 }
+/*
 .reveal.active {
     opacity: 1;
-    transform: translateX(0);
+    transform: translateX(0%);
 }
+*/
