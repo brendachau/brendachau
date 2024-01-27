@@ -10,7 +10,6 @@ html, body {
     padding: 0px;
     overflow-x: hidden;
 }
-
 /* pop up alert */
 .popup {
     background-color: white;
@@ -169,8 +168,6 @@ header {
 }
 
 
-
-
 /* profile card */
 .container {
     width: 100%;
@@ -179,7 +176,7 @@ header {
 #profile {
     width: 330px;
     height: 515px;
-    margin: 175px 5px 0px 235px;
+    margin: 165px 5px 0px 235px;
     float: left;
 }
 .profileInfo {
@@ -268,7 +265,7 @@ header {
 
 /* languages cards */
 .col2 {
-    margin: 155px 5px 0px 140px;
+    margin: 145px 5px 0px 140px;
     width: 200px;
     height: 260px;
     display: grid;
@@ -361,10 +358,10 @@ header {
     margin-left: 16%;
     color: white;
     margin-bottom: 19%;
-    margin-top: 7%;
+    margin-top: 2%;
 }
 #extracurricular {
-    margin-top: 10%;
+    margin-top: 8%;
 }
 i {
     margin-top: 7px;
@@ -378,7 +375,7 @@ i {
     margin-right: 13%;
 }
 #education h1{
-    padding-top: 70px;
+    padding-top: 60px;
     color: #4B9CD3;
     border-top: 2px dashed black;
 }
@@ -569,13 +566,22 @@ button {
     .col2 {
         margin: 120px 5px 0px 50px;
     }
-
+    
     /* education & extracurricular */
     #extra {padding-top: 110%;} .indent {margin-left: 0px;} #year {width: 100%;} #school {width: 100%;} #extra h3, i, li, #education h3 {margin-left: 30px;} #extra, #education {padding-bottom: 100%;} #education {padding-bottom: 100%;} #extra h3, #education h3 {padding-top: 10%;}
 
+    /* volunteer */
+    .parallaxText img {
+        width: 500px;
+        height: 120px;
+    }
+    #volunteer h2 {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
     /* projects */
-    .square{width:420px;height:600px;margin-left:4%;margin-top:5%}
-    .square:hover{transform:translateX(10%)!important;transition:.8s ease-in-out}.square2{width:270px;height:270px;margin-left:25%;margin-top:75%}.square3{width:525px;height:310px}.square3 p{font-size:14px}.triangle{margin-top:36%}
+    .square{width:420px;height:600px;margin-left:2.5%;margin-top:5%;}.square:hover{transform:translateX(10%)!important;transition:.8s ease-in-out;}.square2{width:270px;height:270px;margin-left:24%;margin-top:75%;}.square3{width:525px;height:310px;}.square3 p{font-size:14px;}.triangle{margin-top:36%;}
 }
 
 @media only screen and (max-width: 1180px) {
@@ -592,10 +598,10 @@ button {
 /* mobile viewport */
 @media only screen and (max-width: 400px) { 
     /* header & nav bar */
-    header h2{display:none}.navlinks a,.navlinks li{font-family:Montserrat,sans-serif;font-weight:600;font-size:10px;color:#fff;text-decoration:none}.navlinks li{display:inline-block;padding:0 5px}
+    header h2{display:none;}.navlinks a,.navlinks li{font-family:Montserrat,sans-serif;font-weight:600;font-size:10px;color:#fff;text-decoration:none;}.navlinks li{display:inline-block;padding:0 5px;}
 
     /* intro */
-    .intro2{position:relative}.intro2 h1{font-size:36px;color:#fff;margin-right:8%;margin-left:8%}.intro2 p{font-size:20px;color:#f0f0f0;font-weight:600;margin:5% 5% 100px 9%}.intro2 img{position:absolute;margin:0;top:63%}#bottom{display:none}
+    .intro2{position:relative;}.intro2 h1{font-size:36px;color:#fff;margin-right:8%;margin-left:8%;}.intro2 p{font-size:20px;color:#f0f0f0;font-weight:600;margin:5% 5% 100px 9%;}.intro2 img{position:absolute;margin:0;top:63%;}#bottom{display:none;}
   
     /* cards */
     #profile {
@@ -619,7 +625,7 @@ button {
     }
 
     /* extracurricular & education */
-    #education h1,#extracurricular{font-size:26px}#extra{padding-top:150%}#education h1{margin-top:100%}#education h3,#extra h3,.indent,i,li{margin-left:0}#school,#year{width:100%}#education,#extra{padding-bottom:100%}#education{padding-bottom:170%}#education h3,#extra h3{padding-top:10%}
+    #education h1,#extracurricular{font-size:26px;}#extra{padding-top:150%;}#education h1{margin-top:100%;}#education h3,#extra h3,.indent,i,li{margin-left:0;}#school,#year{width:100%;}#education,#extra{padding-bottom:100%;}#education{padding-bottom:170%;}#education h3,#extra h3{padding-top:10%;}
 
     /* volunteer */
     .parallaxPic {
@@ -634,5 +640,5 @@ button {
     }
 
     /* project */
-    .square{width:270px;height:400px;margin-top:140%}.square2{width:200px;height:200px;margin-left:35%;margin-top:145%}.square3{width:375px;height:420px}.square3 p{font-size:14px}.triangle{margin-top:130%}
+    .square{width:270px;height:400px;margin-top:135%;margin-left: 3%;}.square2{width:200px;height:200px;margin-left:35%;margin-top:145%;}.square3{width:375px;height:420px;}.square3 p{font-size:14px;}.triangle{margin-top:126%;}
 }
