@@ -363,8 +363,8 @@ header {
 #extra {
     margin-left: 16%;
     color: white;
-    margin-bottom: 5%;
-    margin-top: 9%;
+    margin-bottom: 19%;
+    margin-top: 7%;
 }
 #extracurricular {
     margin-top: 10%;
@@ -381,9 +381,12 @@ i {
     margin-right: 13%;
 }
 #education h1{
-    padding-top: 65px;
+    padding-top: 70px;
     color: #4B9CD3;
     border-top: 2px dashed black;
+}
+.indent {
+    margin-left: 50px;
 }
 #year {
     float: left;
@@ -399,6 +402,7 @@ li {
 }
 #education h3, #extra h3 {
     color: aliceblue;
+    padding-top: 7%;
 }
 #education h1, #extra h1 {
     color: #4B9CD3;
@@ -406,6 +410,42 @@ li {
 }
 
 
+
+/* volunteer */
+.parallaxPic {
+    background: url("images/mountain2.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.parallaxText {
+    padding: 10% 0;
+}
+
+#volunteer h1 {
+    text-align: center;
+}
+#volunteer {
+    margin-top: 24%;
+    background-image: url("NutrifitWorld/images/paper.jpeg");
+    padding-bottom: 4%;
+    position: relative;
+    
+}
+#volunteer h2 {
+    font-size: 32px;
+    color: #017596;
+    text-align: center;
+    font-weight: 350;
+    letter-spacing: 2px;
+    margin: 40px 0 10px;
+}
+#volunteer p {
+    font-size: 16px;
+    text-align: justify;
+    line-height: 30px;    
+    padding: 3% 10% 0% 10%;
+}
 
 
 /* project */
@@ -432,7 +472,7 @@ button {
     cursor: pointer;
 }
 .square:hover {
-    transform: translateY(-10%)!important;
+    transform: translateX(10%)!important;
     transition: all 0.8s ease-in-out;
 }
 /* nutrifit */
@@ -500,46 +540,7 @@ button {
 }
 
 
-/* volunteer */
-.parallaxPic {
-    background: url("images/mountain2.jpeg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
-.parallaxText {
-    padding: 10% 0;
-}
 
-#volunteer h1 {
-    text-align: center;
-}
-#volunteer {
-    margin-top: 24%;
-    background-image: url("NutrifitWorld/images/paper.jpeg");
-    padding-bottom: 4%;
-    position: relative;
-    
-}
-#volunteer h2 {
-    font-size: 32px;
-    color: #017596;
-    text-align: center;
-    font-weight: 350;
-    letter-spacing: 2px;
-    margin: 40px 0 10px;
-}
-#volunteer p {
-    font-size: 16px;
-    text-align: justify;
-    line-height: 30px;    
-    padding: 3% 10% 0% 10%;
-}
-
-/* wave */
-.wave {
-    display: none;
-}
 
 /* reveal */
 .reveal {
@@ -553,3 +554,117 @@ button {
     transform: translateX(0%);
 }
 */
+
+
+
+/* media viewport */
+@media only screen and (max-width: 600px) {
+    .intro2 {
+        position: relative;
+    }
+    .intro2 h1 {
+        font-size: 37px;
+        color: white;
+    }
+    .intro2 p {
+        font-size: 16px;
+        color: #f0f0f0;
+        font-weight: 600;
+        margin-bottom: 100px;
+    }
+    .intro2 img {
+        position: absolute;
+        margin: auto;
+        bottom: 2.5%;
+    }
+    #bottom {
+        display: none;
+    }
+
+    #profile {
+        width: 330px;
+        height: 515px;
+        margin: 120px 5px 0px 120px;
+        float: left;
+    }
+    .col2 {
+        margin: 120px 5px 0px 50px;
+    }
+
+    #extra {
+        padding-top: 110%;
+    }
+    .indent {
+        margin-left: 0px;
+    }
+    #year {
+        width: 100%;
+    }
+    #school {
+        width: 100%;
+    }
+    #extra h3, i, li, #education h3 {
+        margin-left: 30px;
+    }
+    #extra, #education {
+        padding-bottom: 100%;
+    }
+    #education {
+        padding-bottom: 100%;
+    }
+    #extra h3, #education h3 {
+        padding-top: 10%;
+    }
+
+    .square {
+        width: 420px;
+        height: 600px;
+        margin-left: 4%;
+        margin-top: 5%;
+        background-image: url("images/interface-3614766_1280.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: absolute;
+        cursor: pointer;
+    }
+    .square:hover {
+        transform: translateX(10%)!important;
+        transition: all 0.8s ease-in-out;
+    }
+    .square2 {
+        width: 270px;
+        height: 270px;
+        background-color: #79B7CE;
+        background-image: url("NutrifitWorld/images/logo.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        cursor: pointer;
+        margin-left: 25%;
+        margin-top: 75%;
+    }
+    .square3 {
+        width: 525px;
+        height: 310px; 
+    }
+    .square3 p {
+        font-size: 14px;
+    }
+    .triangle {
+        margin-top: 36%;
+    }
+}
+
+@media only screen and (max-width: 1180px) {
+    #bottom {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1350px) {
+    #bottom {
+        display: none;
+    }
+}
