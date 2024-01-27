@@ -11,7 +11,6 @@ html, body {
     overflow-x: hidden;
 }
 
-
 /* pop up alert */
 .popup {
     background-color: white;
@@ -357,8 +356,6 @@ header {
 
 
 
-
-
 /* education and extracurricular */
 #extra {
     margin-left: 16%;
@@ -430,7 +427,6 @@ li {
     background-image: url("NutrifitWorld/images/paper.jpeg");
     padding-bottom: 4%;
     position: relative;
-    
 }
 #volunteer h2 {
     font-size: 32px;
@@ -558,29 +554,12 @@ button {
 
 
 /* media viewport */
+/* lowest desktop minimization */
 @media only screen and (max-width: 600px) {
-    .intro2 {
-        position: relative;
-    }
-    .intro2 h1 {
-        font-size: 37px;
-        color: white;
-    }
-    .intro2 p {
-        font-size: 16px;
-        color: #f0f0f0;
-        font-weight: 600;
-        margin-bottom: 100px;
-    }
-    .intro2 img {
-        position: absolute;
-        margin: auto;
-        bottom: 2.5%;
-    }
-    #bottom {
-        display: none;
-    }
+    /* intro */
+    .intro2 {position: relative;} .intro2 h1 {font-size: 37px;color: white;} .intro2 p {font-size: 16px;color: #f0f0f0;font-weight: 600;margin-bottom: 100px;} .intro2 img {position: absolute; margin: auto; bottom: 2.5%;} #bottom {display: none;}
 
+    /* cards */
     #profile {
         width: 330px;
         height: 515px;
@@ -591,70 +570,12 @@ button {
         margin: 120px 5px 0px 50px;
     }
 
-    #extra {
-        padding-top: 110%;
-    }
-    .indent {
-        margin-left: 0px;
-    }
-    #year {
-        width: 100%;
-    }
-    #school {
-        width: 100%;
-    }
-    #extra h3, i, li, #education h3 {
-        margin-left: 30px;
-    }
-    #extra, #education {
-        padding-bottom: 100%;
-    }
-    #education {
-        padding-bottom: 100%;
-    }
-    #extra h3, #education h3 {
-        padding-top: 10%;
-    }
+    /* education & extracurricular */
+    #extra {padding-top: 110%;} .indent {margin-left: 0px;} #year {width: 100%;} #school {width: 100%;} #extra h3, i, li, #education h3 {margin-left: 30px;} #extra, #education {padding-bottom: 100%;} #education {padding-bottom: 100%;} #extra h3, #education h3 {padding-top: 10%;}
 
-    .square {
-        width: 420px;
-        height: 600px;
-        margin-left: 4%;
-        margin-top: 5%;
-        background-image: url("images/interface-3614766_1280.png");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        position: absolute;
-        cursor: pointer;
-    }
-    .square:hover {
-        transform: translateX(10%)!important;
-        transition: all 0.8s ease-in-out;
-    }
-    .square2 {
-        width: 270px;
-        height: 270px;
-        background-color: #79B7CE;
-        background-image: url("NutrifitWorld/images/logo.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-        position: absolute;
-        cursor: pointer;
-        margin-left: 25%;
-        margin-top: 75%;
-    }
-    .square3 {
-        width: 525px;
-        height: 310px; 
-    }
-    .square3 p {
-        font-size: 14px;
-    }
-    .triangle {
-        margin-top: 36%;
-    }
+    /* projects */
+    .square{width:420px;height:600px;margin-left:4%;margin-top:5%}
+    .square:hover{transform:translateX(10%)!important;transition:.8s ease-in-out}.square2{width:270px;height:270px;margin-left:25%;margin-top:75%}.square3{width:525px;height:310px}.square3 p{font-size:14px}.triangle{margin-top:36%}
 }
 
 @media only screen and (max-width: 1180px) {
@@ -662,9 +583,56 @@ button {
         display: none;
     }
 }
-
 @media only screen and (max-width: 1350px) {
     #bottom {
         display: none;
     }
+}
+
+/* mobile viewport */
+@media only screen and (max-width: 400px) { 
+    /* header & nav bar */
+    header h2{display:none}.navlinks a,.navlinks li{font-family:Montserrat,sans-serif;font-weight:600;font-size:10px;color:#fff;text-decoration:none}.navlinks li{display:inline-block;padding:0 5px}
+
+    /* intro */
+    .intro2{position:relative}.intro2 h1{font-size:36px;color:#fff;margin-right:8%;margin-left:8%}.intro2 p{font-size:20px;color:#f0f0f0;font-weight:600;margin:5% 5% 100px 9%}.intro2 img{position:absolute;margin:0;top:63%}#bottom{display:none}
+  
+    /* cards */
+    #profile {
+        width: 330px;
+        height: 515px;
+        margin: 80px 5px 0px 34px;
+        float: left;
+    }
+    .col2 {
+        margin: 100px 5px 0px 0px;
+        width: 200px;
+        height: 260px;
+        grid-template-columns: 190px 155px;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;    
+    }
+    .card {
+        width: 170px;
+        height: 230px;
+        padding: 15px 25px;
+    }
+
+    /* extracurricular & education */
+    #education h1,#extracurricular{font-size:26px}#extra{padding-top:150%}#education h1{margin-top:100%}#education h3,#extra h3,.indent,i,li{margin-left:0}#school,#year{width:100%}#education,#extra{padding-bottom:100%}#education{padding-bottom:170%}#education h3,#extra h3{padding-top:10%}
+
+    /* volunteer */
+    .parallaxPic {
+        background-image: none;
+    }
+    .parallaxText img {
+        width: 300px;
+        height: 70px;
+    }
+    #volunteer {
+        padding-bottom: 10%;
+    }
+
+    /* project */
+    .square{width:270px;height:400px;margin-top:140%}.square2{width:200px;height:200px;margin-left:35%;margin-top:145%}.square3{width:375px;height:420px}.square3 p{font-size:14px}.triangle{margin-top:130%}
 }
