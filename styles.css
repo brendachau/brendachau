@@ -95,6 +95,10 @@ header {
 }
 
 /* put nav bar with the background image in the first section */
+#active {
+    color: rgb(188, 188, 255);
+}
+
 .wrapper {
     background-image: url("images/mountain.png");
     background-size: cover;
