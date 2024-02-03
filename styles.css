@@ -263,8 +263,9 @@ header {
     flex: 1;
     text-align: center;
 }
-
-
+.col i:hover {
+    color: gray;
+}
 
 
 /* languages cards */
