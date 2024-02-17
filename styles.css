@@ -672,6 +672,25 @@ button {
         margin: 120px 5px 0px 50px;
     }
     
+    /* skill */
+    #skill-title {
+        font-size: 30px;
+        text-align: center;
+        color: rgb(207, 207, 245);
+        margin: 140% 80px 50px 35px;
+        letter-spacing: 15px;
+    }
+    #skill-title:after {
+        content: "";
+        height: 7px;
+        width: 190px;
+        background-color: ghostwhite;
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+        margin-right: 26.5%;
+    }
+
     /* education & extracurricular */
     #extra {padding-top: 110%;} .indent {margin-left: 0px;} #year {width: 100%;} #school {width: 100%;} #extra h3, i, li, #education h3 {margin-left: 30px;} #extra, #education {padding-bottom: 100%;} #education {padding-bottom: 100%;} #extra h3, #education h3 {padding-top: 10%;}
 
@@ -727,6 +746,25 @@ button {
         width: 170px;
         height: 230px;
         padding: 15px 25px;
+    }
+
+    /* skill */
+    #skill-title {
+        font-size: 30px;
+        text-align: center;
+        color: rgb(207, 207, 245);
+        margin: 190% 80px 50px 10px;
+        letter-spacing: 15px;
+    }
+    #skill-title:after {
+        content: "";
+        height: 7px;
+        width: 190px;
+        background-color: ghostwhite;
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+        margin-right: 8%;
     }
 
     /* extracurricular & education */
