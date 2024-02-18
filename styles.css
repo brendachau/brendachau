@@ -404,7 +404,7 @@ header {
     background-color: #29628a;
 }
 .skill:hover::before {
-    animation: animate 3s linear infinite;
+    animation: animate 2s linear infinite;
 }
 /* the image over the animation */
 .skill::after {
