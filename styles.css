@@ -359,24 +359,27 @@ header {
 
 /* skills */
 .skills {
-    margin-left: 70px;
+    text-align: center;
 }
 #skill-title {
     font-size: 30px;
     text-align: center;
     color: rgb(207, 207, 245);
-    margin: 90px 80px 50px 0px;
-    letter-spacing: 15px;
+    margin: 75px 0px 50px 0px;
+    letter-spacing: 13px;
 }
 #skill-title:after {
     content: "";
     height: 7px;
-    width: 190px;
+    width: 180px;
     background-color: ghostwhite;
     display: block;
     margin: auto;
     margin-top: 20px;
-    margin-right: 43.5%;
+    margin-left: 43.15%;
+}
+.center {
+    margin-left: 19.5%;
 }
 .skill {
     position: relative;
@@ -434,19 +437,7 @@ header {
     background-size: 150px 150px;
     inset: 8px;
     background-repeat: no-repeat;
-    background-image: url("images/word.png");
-}
-#skill5::after {
-    background-size: 150px 150px;
-    inset: 8px;
-    background-repeat: no-repeat;
-    background-image: url("images/excel.png");
-}
-#skill6::after {
-    background-size: 150px 150px;
-    inset: 8px;
-    background-repeat: no-repeat;
-    background-image: url("images/powerpoint.png");
+    background-image: url("images/office.jpeg");
 }
 
 @keyframes animate {
@@ -468,8 +459,7 @@ header {
     margin-top: 2%;
 }
 #extracurricular {
-    margin-top: 30%;
-    
+    margin-top: 29.5%; 
 }
 i {
     margin-top: 7px;
