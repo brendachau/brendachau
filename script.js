@@ -121,3 +121,17 @@ document.querySelector("#close").addEventListener("click", function() {
 document.querySelector("#popup-a").addEventListener("click", function() {
   document.querySelector(".popup").style.display = "none";
 })
+
+// menu navbar
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+function menuAnimation(x) {
+  x.classList.toggle("change");
+}
