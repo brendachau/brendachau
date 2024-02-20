@@ -62,7 +62,10 @@ html, body {
     background-color: none;
     position: relative;
 }
-#signature, #signature2 {
+#signature {
+    margin: 0px 32% 0px 0px;
+}
+#signature2 {
     margin: 20px 32% 0px 40px;
 }
 .navbar a {
