@@ -135,3 +135,16 @@ function myFunction() {
 function menuAnimation(x) {
   x.classList.toggle("change");
 }
+// mobile nav bar
+function myFunction2() {
+  var x = document.getElementById("myLinks2");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+function menuAnimation2(x) {
+  x.classList.toggle("change");
+}
