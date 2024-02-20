@@ -50,27 +50,49 @@ html, body {
     padding: 10px 0;
 }
 
-
 /* navbar */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+/* normal nav bar */
+.navbar {
+    overflow: hidden;
+    background-color: none;
+    position: relative;
+}
+#signature, #signature2 {
+    margin: 20px 33% 0px 40px;
+}
+.navbar a {
+    float: left;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 33px;
+}
+.navbar a.icon {
+    float: right;
+    margin: 1.5% 2% 0px 0px;
+}
+
 /* mobile navbar hamburger */
 #signature {
     text-align: left;
 }
-.topnav {
+.mobilenav {
     overflow: hidden;
     background-color: none;
     position: relative;
     display: none;
 }
-.topnav #myLinks {
+.mobilenav #myLinks, .topnav2 #myLinks2 {
     display: none;
 }
-.topnav a {
+.mobilenav a {
     color: white;
     padding: 14px 16px;
     text-decoration: none;
@@ -80,18 +102,19 @@ html, body {
     font-weight: 600;
     text-align: right;
 }
-.topnav a.icon {
+.mobilenav a.icon {
     background: none;
     display: block;
     position: absolute;
     right: 0;
     top: 0;
+    margin: 1.5% 2% 0px 0px;
 }
-.topnav a:hover {
+.mobilenav a:hover, .navbar a:hover {
     color: #87CEEB;
 }
 
-/* animate hamburger icon */
+/* animate hamburger icon (hamburger to X) */
 .menu1, .menu2, .menu3 {
     width: 35px;
     height: 5px;
@@ -108,46 +131,6 @@ html, body {
     transform: translate(0, -11px) rotate(45deg);
 }
 
-
-/* normal navbar */
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 2.5% 5% 30px 8%;
-    background: none;
-    position: sticky;
-    top: 0;
-    z-index: 1;
-}
-.navlinks li, .navlinks a {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600;
-    font-size: 17px;
-    color: white;
-    text-decoration: none;
-}
-.navlinks {
-    list-style: none;
-    width: 100%;
-}
-.navlinks li {
-    display: inline-block;
-    padding: 0px 20px;
-}
-.navlinks li a {
-    transition: all 0.2s ease 0s;
-}
-.navlinks li a:hover {
-    color: #87CEEB;
-    padding-bottom: 10px;
-    border-bottom: 4px solid white;
-}
-.navbar-scrolled {
-    background-color: aliceblue;
-    opacity: 95%;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
-}
 #active {
     color: rgb(188, 188, 255);
 }
@@ -160,7 +143,6 @@ header {
     width: 100%;
     height: 100vh;
 }
-
 /* load in text color */
 .input {
     background: linear-gradient(to right, #b8e8f9, #a2d6f9, #94cef5 , lavender);
@@ -199,7 +181,6 @@ header {
 #elk {
     top: 50%;
 }
-
 /* before animate */
 .intro2 .animate {
     transform: translateX(-100%);
@@ -214,7 +195,6 @@ header {
     filter: blur(3px);
     opacity: 0;
 }
-
 /* after animate */
 .intro2.show-animate .animate {
     transform: translateX(0);
@@ -228,7 +208,6 @@ header {
     transition-delay: 0.5s;
     transition-duration: 1s;
 }
-
 
 /* profile card */
 .container {
@@ -508,7 +487,6 @@ header {
 }
 
 
-
 /* education and extracurricular */
 #extra {
     margin-left: 16%;
@@ -559,8 +537,6 @@ li {
     padding-bottom: 30px;
 }
 
-
-
 /* volunteer */
 .parallaxPic {
     background: url("images/mountain2.jpeg");
@@ -595,7 +571,6 @@ li {
     line-height: 30px;    
     padding: 3% 10% 0% 10%;
 }
-
 
 /* project */
 #project {
@@ -703,14 +678,15 @@ button {
 
 
 
+
 /* media viewport */
 /* lowest desktop minimization */
 @media only screen and (max-width: 600px) {
-    .topnav {
-        display: block;
-    }
-    nav, #signature2 {
+    .navbar {
         display: none;
+    }
+    .mobilenav {
+        display: block;
     }
 
     /* intro */
@@ -778,11 +754,11 @@ button {
     }
 }
 @media only screen and (min-width: 400px) and (max-width: 980px){
-    .topnav {
-        display: block;
-    }
-    nav, #signature2 {
+    .navbar {
         display: none;
+    }
+    .mobilenav {
+        display: block;
     }
 }
 
