@@ -56,6 +56,11 @@ html, body {
     margin: 0;
     padding: 0;
 }
+#contact {
+    border: 0.5px solid #1f242d;
+    background-color: #1f242d;
+    border-radius: 40px;
+}
 /* normal nav bar */
 .navbar {
     overflow: hidden;
@@ -66,7 +71,7 @@ html, body {
     margin: 0px 32% 0px 0px;
 }
 #signature2 {
-    margin: 20px 32% 0px 40px;
+    margin: 10px 32% 0px 40px;
 }
 .navbar a {
     float: left;
@@ -179,7 +184,7 @@ html, body {
 }
 #bottom {
     width: 100%;
-    bottom: 0;
+    bottom: -3%;
 }
 #elk {
     top: 50%;
