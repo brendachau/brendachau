@@ -84,7 +84,7 @@ html, body {
 }
 .navbar a.icon {
     float: right;
-    margin: 1% 2% 0px 0px;
+    margin: 0% 2% 0px 0px;
 }
 
 /* mobile navbar hamburger */
