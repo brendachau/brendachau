@@ -92,7 +92,7 @@ html, body {
     position: relative;
     display: none;
 }
-.mobilenav #myLinks, .topnav2 #myLinks2 {
+.mobilenav #myLinks2 {
     display: none;
 }
 .mobilenav a {
