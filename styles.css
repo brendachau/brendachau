@@ -60,6 +60,7 @@ html, body {
     border: 0.5px solid #1f242d;
     background-color: #1f242d;
     border-radius: 40px;
+    padding: 14px 14px;
 }
 /* normal nav bar */
 .navbar {
