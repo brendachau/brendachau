@@ -265,6 +265,7 @@ html, body {
 .front p {
     font-size: 13px;
     color: white;
+    margin-top: -2px;
 }
 .front button {
     width: 120px;
@@ -273,7 +274,6 @@ html, body {
     border-radius: 50px;
     padding: 8px 20px;
     cursor: pointer;
-    margin-top: 20px;
     color: white;
 }
 .back {
@@ -288,7 +288,7 @@ html, body {
     font-size: 50px;
     line-height: 55px;
     margin-top: 50px;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
     color: #0a2351;
 }
 .back p {
@@ -303,7 +303,7 @@ html, body {
 .row {
     display: flex;
     align-items: center;
-    margin-top: 25%;
+    margin-top: 16%;
 }
 .row a {
     color: white;
