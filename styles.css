@@ -287,8 +287,8 @@ html, body {
 .back h2 {
     font-size: 50px;
     line-height: 55px;
-    margin-top: 50px;
-    margin-bottom: 20px;
+    margin-top: 35px;
+    margin-bottom: 15px;
     color: #0a2351;
 }
 .back p {
@@ -303,7 +303,7 @@ html, body {
 .row {
     display: flex;
     align-items: center;
-    margin-top: 16%;
+    margin-top: 10%;
 }
 .row a {
     color: white;
