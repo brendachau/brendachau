@@ -513,7 +513,6 @@ i {
     margin-top: 7px;
     margin-bottom: 25px;
     color: lightgray;
-    text-align: left;
 }
 #education {
     margin-left: 16%;
@@ -535,6 +534,9 @@ i {
 #school {
     float: left;
     width: 31.5%;
+}
+#school p, #year p {
+    color: lightgray;
 }
 li {
     padding-top: 6px;
