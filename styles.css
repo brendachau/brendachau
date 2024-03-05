@@ -381,14 +381,14 @@ html, body {
     background-image: url("images/htmlcss.jpeg");
 }
 .card1.caption::before {
-    content: "I'm familiar most with HTML and CSS. I know the basics and can perform the majority of tasks asked.";
+    content: "I'm familiar most with HTML and CSS. I'm able to perform the majority of tasks asked.";
 }
 /* card 2 */
 .card2 {
     background-image: url("images/js");
 }
 .card2.caption::before {
-    content: "My only understanding of JS was learned through my web scripting course. I learned the basics like click, toggles, etc., but still pretty new to it. I'm currently using CodeAcademy to learn JSX and more about React/JavaScript.";
+    content: "My only understanding of JS was learned through my web scripting course. I learned the basics like click, toggles, etc., but am still pretty new to it. I'm currently using CodeAcademy to learn JSX and more about React/JavaScript.";
 }
 /* card 3 */
 .card3 {
