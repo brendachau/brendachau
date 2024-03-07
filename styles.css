@@ -410,23 +410,30 @@ html, body {
 .skills {
     text-align: center;
 }
+/* skill title */
+@use postcss-preset-env {
+    stage: 0;
+  }  
+:root {
+    --color-background: #1f241f;
+    --stroke-width: calc(1em / 16);
+    --font-size: 60px;
+    --font-weight: 700;
+    --letter-spacing: calc(1em / 6);
+}
 #skill-title {
-    font-size: 30px;
-    text-align: center;
-    color: rgb(207, 207, 245);
-    margin: 85px 15px 50px 0px;
-    letter-spacing: 13px;
+    background-clip: text;
+    background-image: linear-gradient(to right, #09f1b8, #00a2ff, #51ccad, #09f1b8);
+    color: var(--color-background);
+    font-size: var(--font-size);
+    font-weight: var(--font-weight);
+    letter-spacing: var(--letter-spacing);
+    padding: calc(--stroke-width / 2);
+    -webkit-text-stroke-color: transparent;
+    -webkit-text-stroke-width: var(--stroke-width);
+    margin: 80px 15px 35px 0px;
 }
-#skill-title:after {
-    content: "";
-    height: 7px;
-    width: 180px;
-    background-color: ghostwhite;
-    display: block;
-    margin: auto;
-    margin-top: 20px;
-    margin-left: 43%;
-}
+
 .center {
     margin-left: 18.7%;
 }
@@ -507,7 +514,10 @@ html, body {
     margin-top: 2%;
 }
 #extracurricular {
-    margin-top: 29.5%; 
+    margin-top: 27.5%; 
+}
+#li-indent {
+    margin-left: 40px;
 }
 i {
     margin-top: 7px;
@@ -541,6 +551,7 @@ i {
 li {
     padding-top: 6px;
     color: #f0f0f0;
+    line-height: 20px;
 }
 #education h3, #extra h3 {
     color: aliceblue;
