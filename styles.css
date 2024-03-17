@@ -229,7 +229,7 @@ html, body {
 #profile {
     width: 330px;
     height: 515px;
-    margin: 165px 5px 0px 235px;
+    margin: 165px 5px 0px 245px;
     float: left;
 }
 .profileInfo {
@@ -406,6 +406,15 @@ html, body {
 }
 
 
+/* wave */
+#wave {
+    margin-bottom: 0px;
+}
+#wave2 {
+    margin-top: -70px;
+}
+
+
 /* skills */
 .skills {
     text-align: center;
@@ -431,7 +440,7 @@ html, body {
     padding: calc(--stroke-width / 2);
     -webkit-text-stroke-color: transparent;
     -webkit-text-stroke-width: var(--stroke-width);
-    margin: 80px 15px 35px 0px;
+    margin: 0px 0px 35px 0px;
 }
 
 .center {
@@ -649,7 +658,7 @@ button {
 .square3 {
     width: 620px;
     height: 310px;
-    background-color: #9ec2f0;
+    background-color: #90b2de;
     margin-top: 40px;
     float: right;
     margin-left: 100px;
@@ -728,23 +737,8 @@ button {
         margin: 120px 5px 0px 50px;
     }
     
-    /* skill */
-    #skill-title {
-        font-size: 30px;
-        text-align: center;
-        color: rgb(207, 207, 245);
-        margin: 125% 0px 50px 20px;
-        letter-spacing: 15px;
-    }
-    #skill-title:after {
-        content: "";
-        height: 7px;
-        width: 190px;
-        background-color: ghostwhite;
-        display: block;
-        margin: auto;
-        margin-top: 20px;
-        margin-right: 33%;
+    #wave {
+        margin-top: 320px;
     }
     .center {
         margin-left: 64px;
@@ -818,23 +812,6 @@ button {
     }
 
     /* skill */
-    #skill-title {
-        font-size: 30px;
-        text-align: center;
-        color: rgb(207, 207, 245);
-        margin: 160% 80px 50px 80px;
-        letter-spacing: 15px;
-    }
-    #skill-title:after {
-        content: "";
-        height: 7px;
-        width: 190px;
-        background-color: ghostwhite;
-        display: block;
-        margin: auto;
-        margin-top: 20px;
-        margin-right: 7%;
-    }
     .center {
         margin-left: 0px;
         display: grid;
