@@ -408,10 +408,7 @@ html, body {
 
 /* wave */
 #wave {
-    margin-bottom: 0px;
-}
-#wave2 {
-    margin-top: -70px;
+    margin-bottom: -10px;
 }
 
 
