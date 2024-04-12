@@ -423,7 +423,7 @@ html, body {
     --letter-spacing: calc(1em / 6);
 }
 #skill-title {
-    background-color: #79B7CE;
+    background-color: rgb(56, 73, 128);
     margin-top: -10px;
 }
 #skill-title h2 {
