@@ -417,7 +417,7 @@ html, body {
   }  
 :root {
     --color-background: #1f241f;
-    --stroke-width: calc(1em / 9);
+    --stroke-width: calc(1em / 12);
     --font-size: 90px;
     --font-weight: 700;
     --letter-spacing: calc(1em / 6);
