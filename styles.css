@@ -406,11 +406,6 @@ html, body {
 }
 
 
-/* wave */
-#wave {
-    margin-bottom: -10px;
-}
-
 
 /* skills */
 .skills {
@@ -422,12 +417,16 @@ html, body {
   }  
 :root {
     --color-background: #1f241f;
-    --stroke-width: calc(1em / 16);
-    --font-size: 60px;
+    --stroke-width: calc(1em / 9);
+    --font-size: 90px;
     --font-weight: 700;
     --letter-spacing: calc(1em / 6);
 }
 #skill-title {
+    background-color: #79B7CE;
+    margin-top: -10px;
+}
+#skill-title h2 {
     background-clip: text;
     background-image: linear-gradient(to right, #09f1b8, #00a2ff, #51ccad, #09f1b8);
     color: var(--color-background);
@@ -437,7 +436,13 @@ html, body {
     padding: calc(--stroke-width / 2);
     -webkit-text-stroke-color: transparent;
     -webkit-text-stroke-width: var(--stroke-width);
-    margin: 0px 0px 35px 0px;
+    text-align: center;
+}
+
+#wave2 {
+    margin-top: -55px;
+    position: relative;
+    z-index: -1;
 }
 
 .center {
@@ -735,10 +740,10 @@ button {
     }
     
     #wave {
-        margin-top: 320px;
+        margin-top: 350px;
     }
     .center {
-        margin-left: 64px;
+        margin-left: 64px;        
     }
 
     /* education & extracurricular */
